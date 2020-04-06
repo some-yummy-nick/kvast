@@ -1,0 +1,33 @@
+.header {
+    padding-top: 60px;
+    background-image: url(/images/wheat-back.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 550px;
+    color: #fff;
+
+    &__inner {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__promo {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 70px;
+        font-weight: 700;
+    }
+}
