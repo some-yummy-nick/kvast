@@ -1,0 +1,57 @@
+.press {
+    background-color: #ede5d8;
+
+    &__btn {
+        opacity: 0.3;
+        border-color: #000;
+        color: #000;
+
+        &:hover {
+            opacity: 1;
+            color: #fff;
+            background-color: #a5a097;
+            border-color: #a5a097;
+        }
+
+        &:focus {
+            opacity: 1;
+            color: #fff;
+            background-color: #a5a097;
+            border-color: #a5a097;
+        }
+
+        &:active {
+            color: rgba(#fff, 0.3);
+            background-color: #8f8a81;
+        }
+    }
+
+    &__quote {
+        position: relative;
+        margin-left: 0;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: -110px;
+            top: 0;
+            display: block;
+            width: 41px;
+            height: 41px;
+            background-image: url(../../images/quotes.png);
+        }
+    }
+
+    &__blockquote {
+        margin-left: 0;
+        margin-bottom: 45px;
+    }
+
+    &__caption {
+        float: right;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #000;
+    }
+}

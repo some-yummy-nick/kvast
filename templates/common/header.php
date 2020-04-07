@@ -3,7 +3,7 @@
         <div class="header__wrapper">
             <div class="logo">
                 <a href="" class="logo__link">
-                    <img src="/images/logo.png" alt="" class="logo__image">
+                    <img src="./images/logo.png" alt="" class="logo__image">
                 </a>
             </div>
             <?= $menu ?>

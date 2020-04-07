@@ -1,0 +1,18 @@
+.history {
+    &__item + &__item {
+        margin-top: 70px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__desc {
+        max-width: 470px;
+    }
+
+    &__origin {
+        margin-bottom: 40px;
+    }
+}

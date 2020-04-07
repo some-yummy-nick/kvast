@@ -1,0 +1,22 @@
+.features {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #ffcb78;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        margin-bottom: 50px;
+    }
+
+    &__image {
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        max-width: 210px;
+    }
+}
