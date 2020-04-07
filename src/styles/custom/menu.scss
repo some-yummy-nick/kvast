@@ -1,8 +1,7 @@
 .menu {
     width: 75%;
-    padding: 20px 0;
+
     border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
     &__list {
         margin: 0;
@@ -12,9 +11,30 @@
         justify-content: space-between;
     }
 
+    &__item {
+        flex-grow: 1;
+        text-align: center;
+    }
+
     &__link {
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 20px 0;
         color: currentColor;
         text-transform: uppercase;
         font-weight: 700;
+
+        &:hover {
+            border-bottom-color: #fff;
+            color: #ffcb78;
+        }
+
+        &:focus {
+            color: currentColor;
+        }
+
+        &:active {
+            color: rgba(#ffcb78, 0.3);
+        }
     }
 }

@@ -47,13 +47,13 @@ svg {
 
 a {
     position: relative;
-    color: $color;
+    color: $primary;
     text-decoration: none;
     transition: color 0.3s, background-color 0.3s, border-color 0.3s !important;
 
     &:hover {
         text-decoration: none;
-        color: $primary;
+        color: $color;
     }
 
     &:focus {
