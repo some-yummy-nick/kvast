@@ -23,9 +23,10 @@
                         <div class="products__composition">Ржаной хлеб, Вода, Солод, Соль</div>
                     </div>
                 </div>
-                <div class="products__text">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил
+                <p class="section__text products__text">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня
+                    и придаст сил
                     для вечерних приключений
-                </div>
+                </p>
                 <div class="products__bottom">
                     <div class="products__buttons">
                         <a href="" class="btn btn_border">Подробнее</a>
@@ -56,9 +57,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="products__text">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение
+                <p class="section__text products__text">Лёгкий и освежающий напиток поможет сохранять отличное
+                    настроение в течение
                     всего дня
-                </div>
+                </p>
                 <div class="products__bottom">
                     <div class="products__buttons">
                         <a href="" class="btn btn_border">Подробнее</a>
@@ -79,18 +81,23 @@
             <div class="features__item">
                 <img class="features__image" src="./images/icon-brew.png" alt="">
                 <h3 class="section__small-title">Варим сами</h3>
-                <div class="features__text">Вот этими самыми руками. Экспериментируем и творим, что хотим.</div>
+                <p class="section__text features__text">Вот этими самыми руками. Экспериментируем и творим, что
+                    хотим.
+                </p>
             </div>
             <div class="features__item">
                 <img class="features__image" src="./images/icon-matreshka.png" alt="">
                 <h3 class="section__small-title">Своё, родное</h3>
-                <div class="features__text">Не заработка ради, а импортозамещения для. Поднимаем производство</div>
+                <p class="section__text features__text">Не заработка ради, а импортозамещения для. Поднимаем
+                    производство
+                </p>
             </div>
             <div class="features__item">
                 <img class="features__image" src="./images/icon-thumbsup.png" alt="">
                 <h3 class="section__small-title">Не экономим</h3>
-                <div class="features__text">Человек это то, что он ест и пьёт. У нас только качественные ингредиенты
-                </div>
+                <p class="section__text features__text">Человек это то, что он ест и пьёт. У нас только качественные
+                    ингредиенты
+                </p>
             </div>
         </div>
     </div>
@@ -98,7 +105,7 @@
 <!--end features-->
 
 <!--start history-->
-<section class="section section_bottom history">
+<section class="section history">
     <div class="container container_small">
         <h2 class="section__title">Немного истории</h2>
         <div class="history__items">
@@ -106,10 +113,10 @@
                 <div class="history__wrapper">
                     <div class="history__desc">
                         <h3 class="section__small-title">Происхождение кваса</h3>
-                        <div class="history__text">Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет
+                        <p class="section__text">Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет
                             древнерусское происхождение. Помимо России квас готовят в Белоруссии, Сербии, Македонии,
                             Словакии и многих других странах, но называется он везде одинаково - квас.
-                        </div>
+                        </p>
                     </div>
                     <div class="history__image">
                         <div class="history__origin">Источник: <a href="">ru.wikipedia.org</a></div>
@@ -121,10 +128,10 @@
                 <div class="history__wrapper">
                     <div class="history__desc">
                         <h3 class="section__small-title">Классификация кваса</h3>
-                        <div class="history__text">По российскому ГОСТу для промышленного изготовления — это напиток с
+                        <p class="section__text">По российскому ГОСТу для промышленного изготовления — это напиток с
                             объемной долей этилового спирта не более 1.2%, изготовленный в результате незавершенного
                             спиртового и молочнокислого брожения сусла.
-                        </div>
+                        </p>
                     </div>
                     <div class="history__image">
                         <div class="history__origin">Источник: <a href="">ru.wikipedia.org</a></div>
@@ -138,7 +145,7 @@
 <!--end history-->
 
 <!--start press-->
-<section class="section section_bottom press">
+<section class="section press">
     <div class="container container_small">
         <h2 class="section__title">Пресса о нас</h2>
         <figure class="press__quote">
@@ -155,7 +162,8 @@
 </section>
 <!--end press-->
 
-<section class="section section_bottom assortment">
+<!--start assortment-->
+<section class="section assortment">
     <div class="container container_small">
         <h2 class="section__title">Ассортимент</h2>
         <table class="assortment__table">
@@ -199,6 +207,55 @@
             </tr>
             </tbody>
         </table>
+    </div>
+</section>
+<!--end assortment-->
+
+<section class="section order">
+    <div class="container container_small">
+        <h2 class="section__title">Заказать</h2>
+        <p class="section__text order__text ">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены!
+            Закажите
+            настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.
+        </p>
+        <form action="" class="order__form">
+            <div class="order__field">
+                <label for="name" class="order__label">Представьтесь:</label>
+                <input type="text" class="order__input" name="name" id="name">
+            </div>
+            <div class="order__wrapper">
+                <div class="order__field">
+                    <label for="phone" class="order__label">Номер Телефона:</label>
+                    <input type="text" class="order__input" name="phone" id="phone">
+                </div>
+                <div class="order__field">
+                    <label for="extra-phone" class="order__label">Доп. номер:</label>
+                    <input type="text" class="order__input" name="extra-phone" id="extra-phone">
+                </div>
+            </div>
+            <div class="order__field">
+                <label for="email" class="order__label">EMail:</label>
+                <input type="email" class="order__input" name="email" id="email">
+            </div>
+            <div class="order__field order__field_select">
+                <label for="volume" class="order__label">Объём заказа:</label>
+                <select class="order__select" name="volume" id="volume">
+                    <option value="5-10">От 5 до 10 баррелей в неделю</option>
+                </select>
+            </div>
+            <div class="order__field">
+                <label for="comment" class="order__label">Доп. комментарий:</label>
+                <textarea class="order__textarea" name="comment" id="comment" cols="30" rows="4"></textarea>
+            </div>
+            <div class="order__field">
+                <label class="checkbox">
+                    <input type="checkbox" class="checkbox__input" checked>
+                    <span class="checkbox__custom"></span>
+                    <span class="checkbox__text">Я согласен получать квасную рассылку</span>
+                </label>
+            </div>
+            <button class="btn btn_primary order__button">Отправить заказ</button>
+        </form>
     </div>
 </section>
 

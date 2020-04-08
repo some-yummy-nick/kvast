@@ -1,0 +1,33 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+
+    &__input {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+
+        &:checked ~ .checkbox__custom,
+        &.checked ~ .checkbox__custom {
+            background-image: url(../../images/check.png);
+        }
+    }
+
+    .checkbox__custom {
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        margin-right: 20px;
+        background-color: rgba(#000, 0.1);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__text {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}

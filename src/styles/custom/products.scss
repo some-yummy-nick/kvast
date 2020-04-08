@@ -1,4 +1,8 @@
 .products {
+    &.section {
+        padding-bottom: 40px;
+    }
+
     &__items {
         display: flex;
     }
@@ -15,7 +19,6 @@
         font-size: 40px;
         font-weight: 700;
         text-transform: uppercase;
-        color: #000;
     }
 
     &__wrapper {
@@ -40,7 +43,6 @@
         margin-bottom: 15px;
         border: 1px solid #e5e5e5;
         border-collapse: collapse;
-        color: #000;
 
         &-item {
             display: table-row;
@@ -67,7 +69,6 @@
 
     &__text {
         margin-bottom: 65px;
-        line-height: 30px;
     }
 
     &__bottom {
@@ -86,6 +87,5 @@
 
     &__price {
         font-weight: 700;
-        color: #000;
     }
 }
