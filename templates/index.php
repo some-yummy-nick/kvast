@@ -13,7 +13,7 @@
                         <div class="products__info">
                             <div class="products__info-item">
                                 <div class="products__info-prop">Алк.</div>
-                                <div class="products__info-value">< 1%</div>
+                                <div class="products__info-value">&lt; 1%</div>
                             </div>
                             <div class="products__info-item">
                                 <div class="products__info-prop">Ккал</div>
@@ -46,7 +46,7 @@
                             <div class="products__info">
                                 <div class="products__info-item">
                                     <div class="products__info-prop">Алк.</div>
-                                    <div class="products__info-value">< 0.5%</div>
+                                    <div class="products__info-value">&lt; 0.5%</div>
                                 </div>
                                 <div class="products__info-item">
                                     <div class="products__info-prop">Ккал</div>
@@ -179,28 +179,28 @@
             <tbody>
             <tr>
                 <td class="assortment__name">Классика</td>
-                <td class="assortment__value">< 1,2%</td>
+                <td class="assortment__value">&lt; 1,2%</td>
                 <td class="assortment__value">33</td>
                 <td class="assortment__value">330 мл</td>
                 <td class="assortment__value">120 Р.</td>
             </tr>
             <tr>
                 <td class="assortment__name">Шабаш</td>
-                <td class="assortment__value">< 1,2%</td>
+                <td class="assortment__value">&lt; 1,2%</td>
                 <td class="assortment__value">45</td>
                 <td class="assortment__value">330 мл</td>
                 <td class="assortment__value">250 Р.</td>
             </tr>
             <tr>
                 <td class="assortment__name">Вахтёр <span class="assortment__label">Новинка</span></td>
-                <td class="assortment__value">< 1%</td>
+                <td class="assortment__value">&lt; 1%</td>
                 <td class="assortment__value">35</td>
                 <td class="assortment__value">0,5 Л</td>
                 <td class="assortment__value">150 Р.</td>
             </tr>
             <tr>
                 <td class="assortment__name">Романтик <span class="assortment__label">Новинка</span></td>
-                <td class="assortment__value">< 0.5%</td>
+                <td class="assortment__value">&lt; 0.5%</td>
                 <td class="assortment__value">27</td>
                 <td class="assortment__value">0,5 Л</td>
                 <td class="assortment__value">90 Р.</td>
@@ -211,6 +211,7 @@
 </section>
 <!--end assortment-->
 
+<!--start order-->
 <section class="section order">
     <div class="container container_small">
         <h2 class="section__title">Заказать</h2>
@@ -218,7 +219,7 @@
             Закажите
             настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.
         </p>
-        <form action="" class="order__form">
+        <form class="order__form">
             <div class="order__field">
                 <label for="name" class="order__label">Представьтесь:</label>
                 <input type="text" class="order__input" name="name" id="name">
@@ -258,4 +259,4 @@
         </form>
     </div>
 </section>
-
+<!--end order-->

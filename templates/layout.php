@@ -14,9 +14,7 @@
             <?= $content ?>
         </main>
     </div>
-    <footer class="footer">
-
-    </footer>
+    <?= $footer ?>
 </div>
 <script src="./build/js/script.js"></script>
 </body>
